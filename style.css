@@ -4261,7 +4261,11 @@ p[class^="from-"].emoji::before{
 
 .cat{
     select, ::picker(select) {
-    appearance: base-select;
+    appearance: none !important;
+	color: transparent !important;
+    background: transparent !important;
+    border: none !important;
+	outline: none !important;
 }
 
 .side-select{
