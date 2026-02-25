@@ -4264,6 +4264,27 @@ p[class^="from-"].emoji::before{
     appearance: base-select;
 }
 
+.side-select{
+	color: transparent !important;
+    background: transparent !important;
+    border: none !important;
+	outline: none !important;
+}
+
+-webkit-user-select:side-select{
+	color: transparent !important;
+    background: transparent !important;
+    border: none !important;
+	outline: none !important;
+}
+
+user-select:side-select{
+	color: transparent !important;
+    background: transparent !important;
+    border: none !important;
+	outline: none !important;
+}
+
 select {
     position: relative;
     margin: auto;
